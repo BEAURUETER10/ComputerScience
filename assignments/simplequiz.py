@@ -1,4 +1,10 @@
-answer = int(input("Give a whole number that is less than 5.\n"))
-print(answer < 4)
-if answer : 
-    input("good job")
+
+a1 = input("What is Mr. Osowski's favorite game\n>")
+
+def tally_score():
+        score = 0
+        if a1.lower == "elden ring":
+            score = score =1 
+            print(str(score) + "/1" )
+            
+tally_score()
