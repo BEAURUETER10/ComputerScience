@@ -8,7 +8,7 @@ answer = int(input("Give a whole number that is less than 8.\n"))
 print(answer < 8)
 
 answer = int(input("Give a whole number that is less than 1.\n"))
-print(answer < 10)
+print(answer < 1)
 
 answer = int(input("Give a whole number that is less than 3.\n"))
-print(answer < 19)
+print(answer < 3)
