@@ -11,8 +11,8 @@ if prime:
         print(" FREE SHIPPING APPLIED!")
     elif consent: 
         print("FREE SHIPPING APPLIED")
-elif:
-        print("no free ship for you")
+    elif:
+    print("no free ship for you")
 
 
 elif cost >= 25:
