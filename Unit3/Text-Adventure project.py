@@ -58,7 +58,21 @@ def go_home():
         print("Invalid choice. Try again ")
 
 def egg_milk_flour_cocoa():
-    print("")
+    print("They have all the ingredients. What do you do  ")
+    print("1. pay for groceries ")
+    print("2. steal")
 
 def tomato_sauce_Spaghetti_ground_beef_parmesan_cheese():
-    print("")
+    print("They don't HAVE INGREDIENTS. SAD ENDING ")
+# end of interaction 3
+
+    choice = input (">")
+    if choice == "1":
+        pay_for_groceries
+    elif choice == "2":
+        steal
+    else:
+     print("Invalid choice. Try again ")
+
+def pay_for_groceries():
+    print("you pay for the groceries. ")
