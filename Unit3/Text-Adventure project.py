@@ -25,7 +25,7 @@ def stay_home():
 def go_out():
     print("You go out on the street and walk to the supermarket ")
     print("1. Go in")
-    print("2. Keep going ")
+    print("2. Go home ")
 # end of frist interaction
 
 
@@ -49,6 +49,9 @@ def go_home():
     print("you go home. NOT TODAY ENDING")
 # end of 2 interaction
 
+
+
+
     choice = input(">")
     if choice == "1":
         egg_milk_flour_cocoa()
@@ -66,6 +69,9 @@ def tomato_sauce_Spaghetti_ground_beef_parmesan_cheese():
     print("They don't HAVE INGREDIENTS. SAD ENDING ")
 # end of interaction 3
 
+
+
+
     choice = input (">")
     if choice == "1":
         pay_for_groceries
@@ -76,3 +82,29 @@ def tomato_sauce_Spaghetti_ground_beef_parmesan_cheese():
 
 def pay_for_groceries():
     print("you pay for the groceries. ")
+    print("1. keep going")
+    print("2. Go home")
+
+
+def steal():
+    print("You get arrested as soon as you leave the supermarket. THE BAD GUY ENDING")
+# end of interaction 4
+
+
+
+
+    choice = input (">")
+
+    if choice == "1":
+        Go_home 
+    elif choice == "2":
+        keep_going 
+    else:
+        print("Invalid choice. Try again")
+    
+def Go_home():
+    print("you go home and make a cake. A THE GOOD ENDING")
+
+def keep_going():
+    print("You wander around for a while and you end up home so you go in and make a cake. A THE GOOD ENDING ")
+# last interaction
