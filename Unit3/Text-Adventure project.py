@@ -103,8 +103,11 @@ def steal():
         print("Invalid choice. Try again")
     
 def Go_home():
-    print("you go home and make a cake. A THE GOOD ENDING")
+    print("you go home and make a cake. THE GOOD ENDING")
 
 def keep_going():
-    print("You wander around for a while and you end up home so you go in and make a cake. A THE GOOD ENDING ")
+    print("You wander around for a while and you end up home so you go in and make a cake. THE GOOD ENDING ")
 # last interaction
+
+
+
