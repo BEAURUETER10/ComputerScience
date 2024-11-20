@@ -2,10 +2,7 @@ from adafruit_circuitplayground import cp
 
 
 while True:
-    if cp.switch:
-        print("Switch is on the True")
-        cp.pixels[0]
-    else:
-        print("Switch is on the False")
-        cp.pixels[5]
-    
+    if cp.switch == False:
+        cp.pixels.fill[0] = (0, 0, 0)
+        cp.pixels.fill[1] = (0, 0, 0)
+                                                                                                                                                                            
